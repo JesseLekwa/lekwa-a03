@@ -9,22 +9,22 @@ public class Solution34 {
         Scanner sc = new Scanner(System.in);
 
 
-        // use an array to store in the existing employees
-        ArrayList<String> employees = new ArrayList<String>
+
+        ArrayList<String> employees = new ArrayList<String>//for storing employee names
                 (Arrays.asList("John Smith", "Jackie Jackson", "Chris Jones", "Amanda Cullen", "Jeremy Goodwin"));
 
-        // print out original list of 5 people
-        System.out.println("" + employees);
 
-        // read in name to remove from list
+        System.out.println("" + employees);// print list of employees
+
+
         System.out.println("Enter an employee name to remove: ");
         String removeEmployee = sc.nextLine();
 
-        // read in the name through the array to remove it from the array
+
         employees.remove(removeEmployee);
 
-        // print out new list of employees with removed name
-        System.out.println("");
+
+        System.out.println("");// print new list of employees
 
     }
 
